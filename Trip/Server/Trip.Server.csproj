@@ -22,7 +22,7 @@
     <ProjectReference Include="..\..\Trip.Application\Trip.Application.csproj" />
     <ProjectReference Include="..\..\Trip.Persistance\Trip.Persistance.csproj" />
     <ProjectReference Include="..\Client\Trip.Client.csproj" />
-    <ProjectReference Include="..\Shared\Trip.Shared.csproj" />
+    <ProjectReference Include="..\..\Trip.Shared\Trip.Shared.csproj" />
   </ItemGroup>
 
 
