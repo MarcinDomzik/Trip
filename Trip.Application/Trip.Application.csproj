@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Trip\Shared\Trip.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Tours\Commands\" />
+  </ItemGroup>
+
 </Project>

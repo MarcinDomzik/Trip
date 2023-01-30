@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trip.Domain.Common;
 
 namespace Trip.Domain.Entities
 {
-    public class Tour
+    public class Tour : AuditableEntity
     {
         public string Name { get; set; }
         public string? Desc { get; set; }
