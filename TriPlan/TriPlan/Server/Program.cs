@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.ResponseCompression;
-using Radzen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,11 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
-builder.Services.AddScoped<DialogService>();
-builder.Services.AddScoped<NotificationService>();
-builder.Services.AddScoped<TooltipService>();
-builder.Services.AddScoped<ContextMenuService>();
 
 var app = builder.Build();
 

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Trip.Shared;
+using TriPlan.Shared;
 
-namespace Trip.Server.Controllers
+namespace TriPlan.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -9,8 +9,8 @@ namespace Trip.Server.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 

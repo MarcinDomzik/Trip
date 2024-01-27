@@ -1,4 +1,4 @@
-namespace Trip.Shared
+namespace TriPlan.Shared
 {
     public class WeatherForecast
     {
